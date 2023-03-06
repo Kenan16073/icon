@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(207, 205, 205);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1000px;
+    margin: 50px auto;     
+}
+.social ul li{
+    display: inline;
+}
+.social ul li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color:#ffffff;
+    position: relative;
+}
+.social ul li a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.social ul li .fb{
+    color: blue;
+    margin-right: 20px;
+}
+.social ul li .tw{
+    color: rgb(34, 159, 241);
+    margin-right: 20px;
+}
+.social ul li .gl{
+    margin-right: 20px;
+    color: red;
+}
+.social ul li .bk{
+    margin-right: 20px;
+    color: brown;
+}
+.social ul li .sk{
+    color: rgb(34, 159, 241);;
+    margin-right: 20px;
+}
